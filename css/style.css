@@ -4,6 +4,14 @@ html,body, {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+                                            /* HEADER */
+
 .navbar {
     background-color: #FEC63E;
 
@@ -22,4 +30,152 @@ html,body, {
 .nav-link:hover {
     color: #ffffff;
 }
+
+
+                                            /* QUOTE */
+.intro {
+    width: 100%;
+    height: 380px ;
+    background: url("../img/intro/bg-intro.jpg") no-repeat center  ;
+    background-size: cover;
+    text-align: center;
+    padding-top: 60px;
+}
+
+.intro h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+  
+}
+
+.quote {
+    max-width: 320px ;
+    margin: 0 auto;
+    color: #ffffff;
+}
+
+.quote p{
+    font-style: italic;
+}
+
+.quote p:before, .quote p:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ffffff;
+    margin: 14px auto 10px auto;
+    
+}
+
+
+.quote cite {
+    font-style: normal;
+    font-weight: bold ;
+    font-size: 18px;
+    letter-spacing: .1em;
+    
+}
+
+.btn-amarelo {
+    border: 3px solid #FEC63E;
+    background: none;
+    padding: 10px 30px ;
+    color: #FEC63E;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: .1em;
+    margin-top: 30px;
+    
+    
+}
+
+
+.btn-amarelo:hover {
+    color: #ffffff;
+    border-color: #ffffff;
+}
+
+
+ /* PRODUTOS */
+
+
+ .produtos {
+     padding: 60px 0;
+     text-align: center;
+ }
+
+ .subtitulo {
+     font-size: 24px;
+     font-weight: bold;
+     line-height: 30px;
+     text-transform: uppercase;
+     text-align: center;
+     margin-bottom: 40px; 
+ }
+
+ .subtitulo:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px auto;                                        
+  }
+
+  .produtos-lista {
+    background: #FEC63E;
+  
+  }
+
+ 
+  .produtos-img {
+    background: #000000;
+}
+
+.produtos-lista h3 {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    padding: 10px 0;
+}
+
+.produtos-lista h3::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 2px auto;  
+}
+
+.produtos-lista p {
+    padding: 10px 20px 20px 20px;
+}
+
+.btn-preto:hover {
+    color: #000;
+    border-color:#000;
+}
+
+.call {
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.call p {
+    margin-bottom: 20px;
+    text-align: center;
+   
+}
+
+
 
