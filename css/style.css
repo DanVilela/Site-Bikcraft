@@ -12,15 +12,10 @@ p {
 }
 
 
-
-
-
-                                            /* HEADER */
+  /* HEADER */
 
 .navbar {
     background-color: #FEC63E;
-
-    
 }
 
 .nav-link{
@@ -37,7 +32,9 @@ p {
 }
 
 
-                                            /* QUOTE */
+
+ /* QUOTE */
+
 .intro {
     width: 100%;
     height: 380px ;
@@ -52,8 +49,6 @@ p {
     color: #ffffff;
     font-weight: bold;
     text-transform: uppercase;
-    
-  
 }
 
 .quote1 {
@@ -95,15 +90,49 @@ p {
     font-weight: bold;
     letter-spacing: .1em;
     margin-top: 30px;
-    
-    
+    text-decoration: none;
 }
 
 
 .btn-amarelo:hover {
     color: #ffffff;
     border-color: #ffffff;
+    text-decoration: none;
 }
+
+
+ /* INTRO GERAL */
+
+ .intro-geral {
+    width: 100%;
+    height: 160px;
+    text-align: center;
+    padding-top: 30px;
+    color: #ffffff;
+   
+}
+
+
+
+.intro-img {
+    background: url("../img/intro/bg-sobre.jpg") no-repeat center ;
+    background-size: cover;
+}
+
+.intro-geral h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.intro-geral h1:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #ffffff;
+    margin: 6px auto 10px auto;   
+}
+
 
 
  /* PRODUTOS */
@@ -200,14 +229,12 @@ p {
 }
         
 
-.portifolio-img{
-    padding: 0px 0px 20px 0px;
-    
-    
-}
-
 .portifolio .call p {
     color: #ffffff;
+}
+
+.portifolio-img {
+    padding-bottom: 20px;
 }
 
 /*QUALIDADE*/
@@ -285,7 +312,6 @@ footer {
 
 
 .rodape {
-    
     color: #ffffff;
 }
 
@@ -329,4 +355,61 @@ footer {
 .redes-sociais:hover {
     border-color: #ffffff;
 }
+
+
+
+/*SOBRE*/
+
+.missao-sobre {
+    padding-top: 30px;
+}
+
+
+.missao-sobre p {
+    font-size: 18px;
+    line-height: 25px ;
+    margin-top: 20px;
+    
+}
+
+.missao-sobre ul {
+    padding: 0px;
+}
+
+.missao-sobre ul li {
+    font-size: 18px;
+    line-height: 30px ;   
+    list-style: none;
+}
+
+.subtitulo-interno {
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 40px; 
+   
+}
+
+.subtitulo-interno:after {
+   content: "";
+   display: block;
+   width: 60px;
+   height: 3px;
+   background: #000;
+   margin: 8px;                                   
+ }
+
+ .valores ul li {
+     padding-left: 100px;
+ }
+
+ .valores h2{
+    padding-left: 100px;
+}
+
+ .missao-img {
+     text-align: center;
+ }
+
 
