@@ -14,6 +14,7 @@ p {
 
   /* HEADER */
 
+
 .navbar {
     background-color: #FEC63E;
 }
@@ -30,7 +31,6 @@ p {
 .nav-link:hover {
     color: #ffffff;
 }
-
 
 
  /* QUOTE */
@@ -357,7 +357,7 @@ footer {
 
 
 
-/*SOBRE*/
+/*==============================SOBRE====================================*/
 
 .missao-sobre {
     padding-top: 30px;
@@ -413,7 +413,8 @@ footer {
  }
 
 
-/*PRODUTOS*/
+
+/*==============================PRODUTOS====================================*/
 
 .produtos-bg {
     background: url("../img/intro/bg-produtos.jpg") no-repeat center ;
@@ -445,13 +446,17 @@ footer {
     margin: 6px auto 4px auto;   
 }
 
+.icone-produtos{
+    background: #000;
+    height: 100%;
+}
 
 .icone-produtos img {
-    display: block;
-    margin: auto;
-    padding: 70px;
-    background: #000;
+    width: 100%;
+    padding: 63px;
+
 }
+
 
 .descricao-produto p {
     background: #000;
@@ -463,8 +468,8 @@ footer {
 .descricao-produto ul {
     background-color: #FEC63E;
     list-style: none;
-    height: 110px;
-    border: 2px solid #000;
+    padding: 15px;
+    
     
 }
 
@@ -473,12 +478,13 @@ footer {
     font-size: 18px;
     line-height: 20px;
     font-weight: bold;
-    width: 229px;
-    height: 49px;
+    width: 230px;
+    height: 59px;
     text-align: center;
-    padding-top: 16px;
-    margin: 0;
+    padding: 10px 0;
+    margin: 5px;
     display: inline-block;
+    border: 4px solid black;
 }
 
 
@@ -561,7 +567,8 @@ footer {
 
 
 
-/*PORTIFOLIO*/
+
+/*==============================PORTIFÓLIO====================================*/
 
 .portifolio-bg {
     background: url("../img/intro/bg-portifolio.jpg") no-repeat center ;
@@ -590,7 +597,8 @@ footer {
 }
 
 
-/*CONTATO*/
+
+/*==============================CONTATO====================================*/
 
 .contato-bg {
     background: url("../img/intro/bg-contato.jpg") no-repeat center ;
